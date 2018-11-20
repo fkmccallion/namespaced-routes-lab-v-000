@@ -1,0 +1,8 @@
+<h1>Preferences</h1>
+
+Song Sort Order: <strong><%= @preference.song_sort_order %></strong><br />
+Artist Sort Order: <strong><%= @preference.artist_sort_order %></strong><br />
+Allow Create Songs: <strong><%= @preference.allow_create_songs %></strong><br />
+Allow Create Artists: <strong><%= @preference.allow_create_artists %></strong>
+
+<p><%= link_to "Update Preferences", edit_admin_preference_path(@preference) %></p>
